@@ -46,11 +46,11 @@ namespace Lab_19_1
                 yield return 0;
                 int N = 0;
 
-                for (int i = 1; i < int.MaxValue; i++)
+                for (int i = 1; i <= n; i++)
                 {
                     N++;
 
-                    if (i == n+1)                     
+                    if (i == int.MaxValue)                     
                   
                         {
                         //Console.WriteLine($"S-au generat numerele intregi de la 0 la {n}");
@@ -61,6 +61,9 @@ namespace Lab_19_1
                     yield return N;
                 }
             }
+
+            
+            
         }
 
 
