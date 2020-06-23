@@ -2,8 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-//Scrieti un iterator care sa furnizeze toate numerele de la 0 pana la numarul maxim reprezentabil in memorie pentru 
-//tipurile intregi.Folositi yield return si yield break pentru a obtine comportamentul dorit.
+
 
 namespace Lab_19_1
 {
