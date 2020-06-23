@@ -28,8 +28,10 @@ namespace Lab_19_1
                 {
                     N++;
                     if (i == n)
+                     
                   
                         {
+                        Console.WriteLine($"S-au generat numerele intregi de la 0 la {n}");
                             yield break;
                         }
 
